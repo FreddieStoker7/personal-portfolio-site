@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freddie Stoker - Junior Full Stack Developer</title>
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body class="bg-body text-white font-poppins pb-12">
+    
+    <header class="py-6">
+        <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            <div class="text-4xl font-bold mr-10">Freddie.Stoker</div>
+            <div class="hidden md:flex space-x-12 items-center">
+                <a href="#" class="text-selected-text">Home</a>
+                <a href="#work">Tech Stack</a>
+                <a href="#projects">Projects</a>
+                <a href="#hire"><button class="px-6 py-2 bg-theme font-bold">Hire me</button></a>
+            </div>
+            <div class="md:hidden">
+                <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="white"/></svg>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <div class="flex flex-wrap md:flex-nowrap">
+
+            <nav class="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
+                <div class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
+                    <a href="#" class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
+                    </a>
+                    <a href="#tech-stack" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Tech</span>
+                    </a>
+                    <a href="#projects" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Projects</span>
+                    </a>
+                    <a href="#about" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">About</span>
+                    </a>
+                    <a href="#hire" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Hire</span>
+                    </a>
+                </div>
+            </nav>
+
+            <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
+                <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Junior Developer<br> based in Manchester.</h1>
+                <div class="w-full flex justify-center md:justify-start">
+                    <button class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">
+                        <div>
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.4375 11C14.4375 11.9117 14.0753 12.786 13.4307 13.4307C12.786 14.0753 11.9117 14.4375 11 14.4375C10.0883 14.4375 9.21398 14.0753 8.56932 13.4307C7.92466 12.786 7.5625 11.9117 7.5625 11C7.5625 10.0883 7.92466 9.21398 8.56932 8.56932C9.21398 7.92466 10.0883 7.5625 11 7.5625C11.9117 7.5625 12.786 7.92466 13.4307 8.56932C14.0753 9.21398 14.4375 10.0883 14.4375 11Z" fill="white"/>
+                                <path d="M0 11C0 11 4.125 3.4375 11 3.4375C17.875 3.4375 22 11 22 11C22 11 17.875 18.5625 11 18.5625C4.125 18.5625 0 11 0 11ZM11 15.8125C12.2764 15.8125 13.5004 15.3055 14.403 14.403C15.3055 13.5004 15.8125 12.2764 15.8125 11C15.8125 9.72365 15.3055 8.49957 14.403 7.59705C13.5004 6.69453 12.2764 6.1875 11 6.1875C9.72365 6.1875 8.49957 6.69453 7.59705 7.59705C6.69453 8.49957 6.1875 9.72365 6.1875 11C6.1875 12.2764 6.69453 13.5004 7.59705 14.403C8.49957 15.3055 9.72365 15.8125 11 15.8125Z" fill="white"/>
+                            </svg>								
+                        </div>
+                        <span>View my work.</span>
+                    </button>
+                </div>
+            </div>
+            <img src="img/dishy-developer.jpeg" alt="Devilishly dishy developer with a twist" class="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-1">
+        </div>
+    </div>
+
+		<!-- Tech Stack -->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="tech-stack" class="secondary-title">Tech Stack</h2>
+				<p class="section-paragraph">These are some of the technologies I've studied so far, but mastery takes a lifetime. Expect this list to grow by the day.</p>
+
+				<div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
+                    <figure>
+					<img src="img/react-logo.png" class="w-full bg-inherit h-36 lg:h-72 lg:w-40 object-contain">
+                    <figcaption>React</figcaption>
+                    </figure>
+                    <figure>
+					<img src="img/Tailwind_CSS_Logo.svg.png" class="w-full bg-inherit h-36 lg:h-72 lg:w-40 object-contain">
+                    <figcaption>Tailwind</figcaption>
+                </figure>
+                <figure>
+					<img src="img/html-logo.png" class="w-full bg-inherit h-36 lg:h-72 lg:w-40 object-contain">
+                    <figcaption>HTML5</figcaption>
+                </figure>
+                <figure>
+					<img src="img/mui-logo.png" class="w-full bg-inherit h-36 lg:h-72 lg:w-40 object-contain">
+                    <figcaption>Material UI</figcaption>
+                </figure>
+                <figure>
+					<img src="img/actual-js.png" class="w-full bg-inherit h-36 lg:h-72 lg:w-40 object-contain">
+                    <figcaption>Javascript</figcaption>
+                </figure>
+                <figure>
+					<img src="img/nodejs-logo.png" class="w-full bg-inherit h-36 lg:h-72 lg:w-40 object-contain">
+                    <figcaption>Node JS</figcaption>
+                </figure>
+                <figure>
+					<img src="img/css-logo.png" class="w-full bg-inherit h-36 lg:h-72 lg:w-40 object-contain">
+                    <figcaption>CSS</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/mongodb.png" class="w-full bg-inherit h-36 lg:h-72 lg:w-40 object-contain">
+                    <figcaption>MongoDB</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/PostgreSQL-Logo.png" class="w-full bg-inherit h-36 lg:h-72 lg:w-40 object-contain">
+                    <figcaption>PostgreSQL</figcaption>
+                    </figure>
+				</div>
+			</section>
+		</div>
+
+
+
+
+		<!-- Projects -->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="projects" class="secondary-title">Projects</h2>
+				<p class="section-paragraph">So far I've done most of my work in Javascript and React, but rest assured this section will continue to grow as I look to relentlessly expand my skillset</p>
+
+				<!-- Project -->
+				<div class="space-y-12 my-16">
+					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+						<div class="mb-6 lg:mb-0">
+                            <img src="img/nc-news-fe.png" alt="nc-news-frontend">
+						</div>
+						<!-- Project info -->
+						<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+							<h3 class="text-white text-3xl font-semibold">NC News Frontend</h3>
+
+							<div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+								<div class="badge">Javascript</div>
+								<div class="badge">React</div>
+                                <div class="badge">CSS</div>
+                                <div class="badge">Axios</div>
+							</div>
+							<p class="text-secondary">A Reddit style news feed where articles can be filtered, commented upon, upvoted and downvoted. Deployed using netlify here</p>
+                            <a href="https://github.com/FreddieStoker7/nc-news">Go to the repo Here</a>
+                            <a href="https://thenewsatnorthcoders.netlify.app">Go to the hosted site here</a>
+						</div>
+
+					</div>
+					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+						
+						
+						<div class="mb-6 lg:mb-0">
+                            <img src="img/nc-news-be.png" alt="nc-news-be">
+						</div>
+
+						
+						<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+							<h3 class="text-white text-3xl font-semibold">NC News Backend</h3>
+
+							<div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+								<div class="badge">NodeJS</div>
+								<div class="badge">Express</div>
+                                <div class="badge">PostgreSQL</div>
+                                <div class="badge">Jest & Supertest</div>
+
+							</div>
+
+							<p class="text-secondary">A restful API which serves up data for use by the front end.</p>
+                            <br>
+                            <br>
+                            <a href="https://github.com/FreddieStoker7/BE-NC-news" class="active:bg-blue-600">Link to the Repo</a>
+                            <br>
+                            <br>
+                            <a href="https://freddie-nc-news.herokuapp.com/api" class="active:bg-blue-600">Link to hosted Backend</a>
+						</div>
+
+					</div>
+					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+						
+						<div class="mb-6 lg:mb-0">
+                            <video class="w-1000 h-800" controls>
+                                <source src="img/Final project team REactors.mp4" type="video/mp4">
+                            </video>
+						</div>
+
+						<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+							<h3 class="text-white text-3xl font-semibold">Linkage Front End</h3>
+
+							<div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+                                <div class="badge">React</div>
+                                <div class="badge">Mui</div>
+							</div>
+
+							<p class="text-secondary">It's no secret that there is a loneliness epidemic spreading throughout the world. Linkage is an app that mediates visits between willing volunteers and vulnerable lonely people. Watch the video for a guided walkthrough or jump straight to the hosted link.</p>
+                            <a href="https://github.com/imevanc/nc-project-phase-fronted-ageuk">Link to the Repo</a>
+                            <a href="https://nc-project-age-ok.netlify.app/">Link to the hosted site</a>
+						</div>
+					</div>
+				</div>
+                <div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+                    <div class="mb-6 lg:mb-0">
+                        <img src="img/linkage.png" alt="linkage-logo">
+                    </div>
+                    <div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+                        <h3 class="text-white text-3xl font-semibold">Linkage Backend</h3>
+
+                        <div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+                            <div class="badge">MongoDB</div>
+                            <div class="badge">Mongoose</div>
+                            <div class="badge">Express </div>
+        
+                        </div>
+
+                        <p class="text-secondary">From scratch, we created an API to house the data for our front end. Despite none of us ever studying mongoDB before, we successfully spiked out and implemented the technology in a matter of days. It was a powerful lesson to us all that we could teach ourselves and implement new skills so quickly. </p>
+                        <a href="https://github.com/BitKoda/nc-group-project">Link to the repo</a>
+                        <a href="https://final-project-ukage-be.herokuapp.com/api">Link to the hosted version</a>
+                    </div>
+                    
+
+                </div>
+                
+            </div>
+
+			</section>
+		</div>
+        <!-- About me -->
+        <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="about" class="secondary-title">A bit about me</h2>
+				<p class="section-paragraph">I've always felt a little lost, and have never been quite sure where my life was going. I've tried all sorts of jobs in my short working life, went to uni, dropped out, nothing seemed to quite ever click. But shortly before christmas 2021 I wrote my first few lines of javascript and you could say that a lightbulb went off in my brain. This was the perfect blend of logic, problem solving and creativity that my brain had been craving and I needed more of it. On a whim I quit an apprenticeship with promising prospects and went all in on software development, you can't change your life without taking risks after all. Less than a week on from first finding out what Javascript was, I was taking my entry challenge for Northcoders. I managed to sail through and gained a place in the January cohort via an excellence scholarship. </p>
+                <p class="section-paragraph"> Northcoder's turned out to be one of the most taxing yet fulfilling learning experiences of my life. I crammed more information than I thought possible into my head in the space of 12 short weeks. For the first time in my life 8 hour working days seem to breeze by, you might say i'd found some sort of flow state and I was genuinley loving the experience of learning how to code. I think the thing that excites me so much about this field is that it is constantly evolving, and the learning never stops which is really what I needed and had lacked in my previous roles.</p>
+                <p class="section-paragraph">Aside from my new found passion for coding, I have have always had a love of all sport. Mainly football, golf and cricket growing up but these days I like going off on adventures with my mountain bike and a tent, or skiing down black runs in the alps. I have also recently been on a few surfing trips and am more than a bit envious of anyone who lives by the sea! </p>
+
+
+		<!-- Hire me -->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="hire" class="secondary-title">Hire me</h2>
+				<p class="section-paragraph">Feel free to to contact me any time, through any method below.</p>
+
+				<div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
+					<div class="space-y-12">
+						<div>
+							<label class="text-white block mb-6 text-xl font-bold">Name</label>
+							<input class="w-full border border-input-border bg-input px-4 py-4">
+						</div>
+						<div>
+							<label class="text-white block mb-6 text-xl font-bold">Email</label>
+							<input type="email" class="w-full border border-input-border bg-input px-4 py-4">
+						</div>
+						<div>
+							<label class="text-white block mb-6 text-xl font-bold">Message</label>
+							<textarea type="email" class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"></textarea>
+						</div>
+						<button class="px-6 py-2 bg-theme text-white font-bold">Send it!</button>
+					</div>
+
+					<div class="mt-12">
+						<!-- Contact info -->
+						<p class="text-secondary">07462877472</p>
+						<a href="mailto:fredsto777@gmail.com" class="text-secondary underline mt-3 block">fredsto777@gmail.com</a>
+
+						<!-- Socials -->
+						<div class="grid grid-cols-3 mt-10 space-x-6">
+							<!-- Linkedin -->
+							<a href="https://www.linkedin.com/in/freddie-stoker-494471230/">
+								<svg class="w-200 h-200 lg:w-250 lg:h-250" width="300px" height="300px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path width="300px" height="300px"d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" fill="white"/></svg>
+                                
+							</a>
+							<!-- Github -->
+							<a href="https://github.com/FreddieStoker7">
+								<svg class="w-200 h-200 lg:w-250 lg:h-250" width="300px" height="300px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" fill="white"/></svg>
+							</a>
+                            <a href="https://docs.google.com/document/d/1ObhcD1BhaPqRs-oyEMsAjf3GU9Iybi49MzKAE_BAptA/edit?usp=sharing">
+								<svg class="w-200 h-200 lg:w-250 lg:h-250" width="75px" height="75px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M30.13 51.31h20a1.75 1.75 0 0 0 1.75-1.75v-5.12a11.067 11.067 0 0 0-4.4-8.832 9.977 9.977 0 1 0-14.713 0 11.08 11.08 0 0 0-4.387 8.832v5.12a1.75 1.75 0 0 0 1.75 1.75zm10-28.894a6.477 6.477 0 1 1-6.477 6.477 6.485 6.485 0 0 1 6.473-6.476zM31.88 44.44a7.576 7.576 0 0 1 3.87-6.594 9.857 9.857 0 0 0 8.754 0 7.56 7.56 0 0 1 3.876 6.594v3.37h-16.5z" fill="white"/><path d="M112.654 4.75H15.346A1.75 1.75 0 0 0 13.6 6.5v115a1.75 1.75 0 0 0 1.75 1.75h97.308a1.75 1.75 0 0 0 1.75-1.75V6.5a1.75 1.75 0 0 0-1.754-1.75zm-1.75 115H17.1V8.25h93.8z" fill="white"/><path d="M26.346 65.75h75.308a1.75 1.75 0 1 0 0-3.5H26.346a1.75 1.75 0 0 0 0 3.5zM26.346 80.194h75.308a1.75 1.75 0 0 0 0-3.5H26.346a1.75 1.75 0 0 0 0 3.5zM26.346 109.083h75.308a1.75 1.75 0 0 0 0-3.5H26.346a1.75 1.75 0 0 0 0 3.5zM26.346 94.639h75.308a1.75 1.75 0 1 0 0-3.5H26.346a1.75 1.75 0 0 0 0 3.5zM64 22.417h37.654a1.75 1.75 0 0 0 0-3.5H64a1.75 1.75 0 0 0 0 3.5zM64 36.861h37.654a1.75 1.75 0 0 0 0-3.5H64a1.75 1.75 0 0 0 0 3.5zM64 51.306h37.654a1.75 1.75 0 0 0 0-3.5H64a1.75 1.75 0 0 0 0 3.5z" fill="white"/></svg>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+
+			</section>
+		</div>
+
+        <script src="main.js"></script>
+
+</body>
+</html>
